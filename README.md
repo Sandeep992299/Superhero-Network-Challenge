@@ -63,7 +63,7 @@ This project:
 ```bash
 git clone https://github.com/Sandeep992299/Superhero-Network-Challenge.git
 cd Superhero-Network-Challenge
-2. (Optional) Create a Virtual Environment
+### 2. (Optional) Create a Virtual Environment
 bash
 Copy
 Edit
@@ -72,7 +72,7 @@ python -m venv venv
 venv\Scripts\activate
 # macOS/Linux
 source venv/bin/activate
-3. Install Required Packages
+### 3. Install Required Packages
 bash
 Copy
 Edit
@@ -92,7 +92,7 @@ Edit
 streamlit run data/app.py
 Make sure app.py is inside the data/ folder.
 
-🧪 Sample Output
+### 🧪 Sample Output
 markdown
 Copy
 Edit
