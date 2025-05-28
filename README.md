@@ -43,6 +43,27 @@ The Python program provides:
 - 💻 Optional Streamlit app interface for interactive viewing
 
 ---
+## 🧰 Tools Used
+
+- Python 3.8+
+- Pandas
+- NetworkX
+- Matplotlib
+- Streamlit
+
+---
+
+## 🔧 Setup Instructions
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/dataiskole-internship.git
+cd dataiskole-internship
+🚀 How to Run the Streamlit App
+Make sure you're in the project directory and then run:
+
+streamlit run data/app.py
 
 🧪 Sample Output
 markdown
