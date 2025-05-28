@@ -1,49 +1,52 @@
 # 🦸‍♂️ Superhero Universe Network – Take-Home Assignment
 
-Welcome! This project is part of a take-home coding challenge where you will design and analyze a superhero network using two CSV files.
+Welcome! This project is a take-home coding assignment for the **Dataiskole Internship Qualification**.  
+Your challenge is to analyze a superhero network using two CSV files and extract key insights.
 
 ---
 
-<img width="426" alt="Screenshot 2025-05-26 at 21 17 15" src="https://media.npr.org/assets/img/2016/06/09/john-p-fleenor-courtesy-of-hbo_wide-f730538a10afad26c9de9a42561772522e4e87e6.jpg?s=1400&c=100&f=jpeg">
+<img width="426" alt="Superhero Network" src="https://media.npr.org/assets/img/2016/06/09/john-p-fleenor-courtesy-of-hbo_wide-f730538a10afad26c9de9a42561772522e4e87e6.jpg?s=1400&c=100&f=jpeg" />
 
 ---
 
-## 📘 Project Story
+## 📘 Project Overview
 
 In this superhero universe:
 
 - Each **superhero is a node**
 - Each **friendship is a connection (edge)** between superheroes
 
-Given:
+You are provided with:
+
 - `superheroes.csv`: Contains superhero ID, name, and created date
 - `links.csv`: Contains pairs of superhero IDs who are friends
 
-Your task: Read the data and generate key insights about the superhero network.
+Your task is to read the data and generate useful insights and a visual graph.
 
 ---
 
 ## ✅ Features & Insights
 
-The Python program provides:
+This project:
 
-- ✅ Total number of superheroes
-- ✅ Total number of connections (edges)
-- ✅ Superheroes added in the last **3 days**
-- ✅ Top 3 most connected superheroes
-- ✅ Information about a special superhero named `dataiskole`
-  - When was `dataiskole` added?
-  - Who are their friends?
+- 🔢 Calculates the total number of superheroes
+- 🔗 Computes total number of connections
+- 🆕 Identifies superheroes added in the last **3 days**
+- 🏆 Finds the **Top 3 most connected superheroes**
+- 👤 Shows details of a special superhero named `dataiskole`:
+  - When they were added
+  - Who their friends are
 
 ---
 
 ## 🎨 Bonus Features
 
-- 📊 **Visual graph** of the superhero network using `networkx` and `matplotlib`
-- 💻 Optional Streamlit app interface for interactive viewing
+- 📈 Visual graph of the superhero network using `NetworkX` and `Matplotlib`
+- 🌐 Streamlit-based interactive web app for viewing the data and results
 
 ---
-## 🧰 Tools Used
+
+## 🧰 Tech Stack
 
 - Python 3.8+
 - Pandas
@@ -55,15 +58,39 @@ The Python program provides:
 
 ## 🔧 Setup Instructions
 
-### 1. Clone the repository
+### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/Sandeep992299/Superhero-Network-Challenge.git
-cd dataiskole-internship
-🚀 How to Run the Streamlit App
-Make sure you're in the project directory and then run:
+cd Superhero-Network-Challenge
+2. (Optional) Create a Virtual Environment
+bash
+Copy
+Edit
+python -m venv venv
+# Windows
+venv\Scripts\activate
+# macOS/Linux
+source venv/bin/activate
+3. Install Required Packages
+bash
+Copy
+Edit
+pip install -r requirements.txt
+If requirements.txt is missing, install manually:
 
+bash
+Copy
+Edit
+pip install pandas networkx matplotlib streamlit
+🚀 Running the Streamlit App
+Run the Streamlit app with:
+
+bash
+Copy
+Edit
 streamlit run data/app.py
+Make sure app.py is inside the data/ folder.
 
 🧪 Sample Output
 markdown
@@ -71,7 +98,8 @@ Copy
 Edit
 🔢 Total superheroes: 11
 🔗 Total connections: 40
-🆕 Superheroes added in last 3 days:
+
+🆕 Superheroes added in the last 3 days:
   - Doctor Strange (2025-05-23)
   - Black Panther (2025-05-23)
   - Scarlet Witch (2025-05-24)
@@ -87,7 +115,4 @@ Edit
   - Added on: 2025-05-26
   - Friends: Spider-Man, Captain America, Scarlet Witch
 
-✅ Network graph saved to graph.png
-
-
-
+✅ Network graph saved as: `graph.png`
