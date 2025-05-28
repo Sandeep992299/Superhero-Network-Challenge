@@ -58,7 +58,7 @@ The Python program provides:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/dataiskole-internship.git
+git clone https://github.com/Sandeep992299/Superhero-Network-Challenge.git
 cd dataiskole-internship
 🚀 How to Run the Streamlit App
 Make sure you're in the project directory and then run:
